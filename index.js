@@ -9,7 +9,7 @@ import transaction from './routes/transaction.js'
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
-        console.log(`Banco de dados conectado com sucesso: ${process.env.DB_URL}`)
+        console.log(`Banco de dados conectado com sucesso`)
     } catch (error) {
         console.log(`Error: ${error}`)
     }
