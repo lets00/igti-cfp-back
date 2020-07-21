@@ -18,9 +18,7 @@ import transaction from './routes/transaction.js'
 const app = express()
 
 app.use(express.json());
-app.use(cors({
-    origin: "https://lets00-cfp-front.herokuapp.com/"
-}))
+app.use(cors())
 
 app.use('/transaction', transaction)
 
